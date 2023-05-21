@@ -1,0 +1,25 @@
+.ingredientsWrapper {
+    height: fit-content;
+    background: #E6E8EC;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.list span {
+    color: #353945
+}
+
+.list > div {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed #B1B4BA;
+}
+
+.list > div:last-child {
+    border: none
+}
+
+.list > div span:last-child {
+    margin-left: auto;
+}

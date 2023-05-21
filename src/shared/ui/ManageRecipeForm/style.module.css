@@ -1,0 +1,14 @@
+.uploadBtnWrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.uploadBtnWrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
